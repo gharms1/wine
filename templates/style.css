@@ -1,8 +1,12 @@
+@import url(https://fonts.googleapis.com/css?family=Bitter:400,700|Source+Sans+Pro:300,400,700,600);
+
+/* COLORS Purple:RGBA(122,65,82,.75) Green: RGBA(145,159,68,1) blue/Grey:RGBA(93,105,112,1) Grey: RGBA(66,66,66,1) */
+
 body {
-  max-width: 1000px;
-  padding: 1em;
-  font-family: Helvetica, Arial, sans-serif;
-  margin: auto; */
+  font-family: 'Source Sans Pro'; Helvetica, Arial, sans-serif;
+  color: rgba(66,66,66,1);
+  margin: auto;
+  line-height: 1.5em;
 }
 
 div, nav, section, main, aside, header, footer {
@@ -10,9 +14,10 @@ div, nav, section, main, aside, header, footer {
   padding: .5em;
   margin-bottom: 1em;
 }
-/*
+
+/* headings */
 h1{
-  font-family: Bitter;
+  font-family: Bitter, serif;
   font-size: 4em;
   font-weight: bold;
   color: white;
@@ -21,14 +26,79 @@ h1{
   max-width: 500px;
 }
 
-
 h2{
-  font-family: Bitter;
+  color:rgba(122,65,82,1);
+  font-family: Bitter, serif;
   font-weight: normal;
-  font-size: 2em;
+  font-size: 1.5em;
   text-align: center;
   padding-bottom: 10px;
   border-style:none none solid none;
+  border-color: rgba(145,159,68,1);
+  width: 50%;
+  margin: auto;
 
 }
-*?
+
+h3{
+  color:black;
+  font-family: Bitter, serif;
+  font-weight: normal;
+  font-size: 2em;
+  text-transform: uppercase;
+  text-align: center;
+  padding-bottom: 10px;
+  border-style:none none solid none;
+  border-width: 10px;
+  border-color: rgba(122,65,82,1);
+
+}
+
+/* nav */
+nav img {
+  max-width:250px;
+  margin: auto;
+}
+ul{
+  list-style-type: none;
+}
+li {
+    display: inline;
+    font-family: Bitter, serif;
+    text-transform: uppercase;
+    color:rgba(122,65,82,1);
+}
+a {
+  text-decoration: none;
+}
+
+/* event titles */
+.event{
+  background-color: rgba(122,65,82,.75);
+  color: white;
+}
+.date {
+  font-family: Bitter, serif;
+  font-weight: bold;
+}
+
+/* body */
+main div{
+  background-color: rgba(145,159,68,1);
+  color: white;
+  margin: 10px 10px 10px 10px;
+}
+.intro {
+  font-size: 1.1em;
+  font-weight: 300;
+  text-align: center;
+}
+
+/* footer */
+footer {
+  background-color:rgba(93,105,112,1);
+  color: white;
+}
+footer img {
+  max-width:100px;
+}
