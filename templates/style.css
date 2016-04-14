@@ -7,13 +7,14 @@ body {
   color: rgba(66,66,66,1);
   margin: auto;
   line-height: 1.5em;
+  padding: .5em;
 }
-
+/*
 div, nav, section, main, aside, header, footer {
   border: 1px solid lightgray;
   padding: .5em;
   margin-bottom: 1em;
-}
+} */
 
 /* headings */
 h1{
@@ -76,11 +77,18 @@ a {
 .event{
   background-color: rgba(122,65,82,.75);
   color: white;
+  margin:auto;
+  }
+.date, .special {
+  text-align:center;
+  padding: 5px 10px 5px 10px;
 }
 .date {
   font-family: Bitter, serif;
   font-weight: bold;
 }
+
+
 
 /* body */
 main div{
@@ -93,6 +101,13 @@ main div{
   font-weight: 300;
   text-align: center;
 }
+main dt{
+  font-weight: bold;
+}
+main dl{
+  text-align: center;
+}
+
 
 /* footer */
 footer {
