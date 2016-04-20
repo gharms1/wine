@@ -112,7 +112,7 @@ a {
     position: relative;
 }
 
-.hero-image__container {
+.hero-image__container, .quote-image__container {
     display: flex;
   align-items: center;
   justify-content: center;
@@ -169,6 +169,22 @@ figure {
     padding: auto;
     }
 
+    .quote-image {
+        height: 40vh;
+        background-image: url(../photos/vineyard.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        background-position: center;
+      }
+
+      .quote-image__text {
+        z-index: 100;
+        color: white;
+        text-align: left;
+        font-size: 1.2em;
+        line-height: 1.5em;
+        }
 
 /* footer */
 footer {
