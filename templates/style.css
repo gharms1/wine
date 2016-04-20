@@ -105,7 +105,7 @@ a {
     z-index: 100;
     padding: 1em;
     color: white;
-    font-size: 1.5em;
+    font-size: 1.2em;
     text-align: center;
 }
 
@@ -117,6 +117,7 @@ a {
 .date {
   font-family: Bitter, serif;
   font-weight: bold;
+  font-size: 1.8em;
 }
 
 
