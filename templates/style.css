@@ -33,11 +33,10 @@ h2{
   font-weight: normal;
   font-size: 1.5em;
   text-align: center;
-  padding-bottom: 1em;
-  padding-top: 2em;
+  padding-bottom: 10px;
   border-style:none none solid none;
   border-color: rgba(145,159,68,1);
-  width: 70%;
+  width: 50%;
   margin: auto;
 
 }
@@ -64,7 +63,7 @@ nav img {
 
 .logo {
       display:block;
-      min-width: 200px;
+      max-width: 150px;
       margin: 0 auto;
       width: 75%;
       padding-top: 20px;
@@ -83,6 +82,7 @@ hr{
     padding-bottom: 5px;
     padding-left: 2em;
     padding-right: 2em;
+    width: 100%;
     overflow-x: auto;
     display: inline-block;
 }
@@ -104,23 +104,20 @@ a {
 }
 
 /* event titles */
-.hero-image, .menu-image {
-    height: 30vh;
+.hero-image {
+    height: 90vh;
     background-image: url(../photos/bottle.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
 }
-.menu-image {
-    background-image: url(../photos/winetasting.jpg);
-}
 
-.hero-image__container,.quote-image__container {
+.hero-image__container {
     display: flex;
-    align-items: center;
-    justify-content: center;
+  align-items: center;
+  justify-content: center;
     height: 100%;
-  background-color: rgba(122,65,82,.75);
+    background-color: rgba(122,65,82,.75);
 }
 
 .hero-image__text {
@@ -131,32 +128,28 @@ a {
     text-align: center;
 }
 
+
+.date, .special {
+  text-align:center;
+  padding: 5px 10px 5px 10px;
+}
 .date {
   font-family: Bitter, serif;
   font-weight: bold;
   font-size: 1.8em;
-  border-style:none none solid none;
-  border-width: thin;
-  border-color: white;
-  padding-bottom: 20px;
-  width: 80%;
-  margin: auto;
-  text-align:center;
 }
 
 
 
 /* body */
-.hours{
+main div{
   background-color: rgba(145,159,68,1);
   color: white;
   margin: 10px 10px 10px 10px;
-  padding-top:10px;
-  padding-bottom:10px;
 }
 .intro {
   font-size: 1.1em;
-  line-height: 1.5em;
+  font-weight: 300;
   text-align: center;
 }
 main dt{
@@ -164,10 +157,6 @@ main dt{
 }
 main dl{
   text-align: center;
-}
-p{
-  padding-left: 1em;
-  padding-right: 1em;
 }
 
 
@@ -179,28 +168,12 @@ figure {
     margin-bottom: 1em;
     padding: auto;
     }
-.quote-image {
-    height: 40vh;
-    background-image: url(../photos/vineyard.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-    background-position: center;
-  }
 
-  .quote-image__text {
-    z-index: 100;
-    color: white;
-    text-align: left;
-    font-size: 1.2em;
-    line-height: 1.5em;
-    }
 
 /* footer */
 footer {
   background-color:rgba(93,105,112,1);
   color: white;
-  text-align: center;
 }
 footer img {
   max-width:100px;
