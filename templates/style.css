@@ -34,6 +34,7 @@ h2{
   font-size: 1.5em;
   text-align: center;
   padding-bottom: 10px;
+  padding-top: 20px;
   border-style:none none solid none;
   border-color: rgba(145,159,68,1);
   width: 50%;
@@ -84,7 +85,7 @@ a {
 
 /* event titles */
 .hero-image {
-    height: 90vh;
+    height: 30vh;
     background-image: url(../photos/bottle.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -93,8 +94,8 @@ a {
 
 .hero-image__container {
     display: flex;
-  align-items: center;
-  justify-content: center;
+    align-items: center;
+    justify-content: center;
     height: 100%;
     background-color: rgba(122,65,82,.75);
 }
@@ -107,24 +108,28 @@ a {
     text-align: center;
 }
 
-
-.date, .special {
-  text-align:center;
-  padding: 5px 10px 5px 10px;
-}
 .date {
   font-family: Bitter, serif;
   font-weight: bold;
   font-size: 1.8em;
+  border-style:none none solid none;
+  border-width: thin;
+  border-color: white;
+  padding-bottom: 20px;
+  width: 80%;
+  margin: auto;
+  text-align:center;
 }
 
 
 
 /* body */
-main div{
+.hours{
   background-color: rgba(145,159,68,1);
   color: white;
   margin: 10px 10px 10px 10px;
+  padding-top:10px;
+  padding-bottom:10px;
 }
 .intro {
   font-size: 1.1em;
@@ -147,7 +152,30 @@ figure {
     margin-bottom: 1em;
     padding: auto;
     }
-
+.quote-image {
+    height: 40vh;
+    background-image: url(../photos/vineyard.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    background-position: center;
+  }
+.quote-image__container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(122,65,82,.75);
+    margin: auto;
+  }
+  .quote-image__text {
+    z-index: 100;
+    color: white;
+    text-align: left;
+    font-size: 1.2em;
+    line-height: 1.5em;
+    }
 
 /* footer */
 footer {
