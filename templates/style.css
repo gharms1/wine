@@ -60,6 +60,7 @@ nav img {
   max-width:250px;
   margin: auto;
 }
+
 ul{
   list-style-type: none;
 }
@@ -110,7 +111,13 @@ main dl{
 
 
 /*images */
-
+figure {
+    float: center;
+    width: 50%;
+    margin-top: 2em;
+    margin-bottom: 1em;
+    padding: auto;
+    }
 
 
 /* footer */
