@@ -33,11 +33,11 @@ h2{
   font-weight: normal;
   font-size: 1.5em;
   text-align: center;
-  padding-bottom: 10px;
-  padding-top: 20px;
+  padding-bottom: 1em;
+  padding-top: 2em;
   border-style:none none solid none;
   border-color: rgba(145,159,68,1);
-  width: 50%;
+  width: 70%;
   margin: auto;
 
 }
@@ -64,7 +64,7 @@ nav img {
 
 .logo {
       display:block;
-      max-width: 200px;
+      min-width: 200px;
       margin: 0 auto;
       width: 75%;
 }
@@ -84,20 +84,23 @@ a {
 }
 
 /* event titles */
-.hero-image {
+.hero-image, .menu-image {
     height: 30vh;
     background-image: url(../photos/bottle.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
 }
+.menu-image {
+    background-image: url(../photos/winetasting.jpg);
+}
 
-.hero-image__container {
+.hero-image__container,.quote-image__container {
     display: flex;
     align-items: center;
     justify-content: center;
     height: 100%;
-    background-color: rgba(122,65,82,.75);
+  background-color: rgba(122,65,82,.75);
 }
 
 .hero-image__text {
@@ -133,7 +136,7 @@ a {
 }
 .intro {
   font-size: 1.1em;
-  font-weight: 300;
+  line-height: 1.5em;
   text-align: center;
 }
 main dt{
@@ -141,6 +144,10 @@ main dt{
 }
 main dl{
   text-align: center;
+}
+p{
+  padding-left: 1em;
+  padding-right: 1em;
 }
 
 
@@ -160,15 +167,7 @@ figure {
     position: relative;
     background-position: center;
   }
-.quote-image__container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 100%;
-    width: 100%;
-    background-color: rgba(122,65,82,.75);
-    margin: auto;
-  }
+
   .quote-image__text {
     z-index: 100;
     color: white;
@@ -181,6 +180,7 @@ figure {
 footer {
   background-color:rgba(93,105,112,1);
   color: white;
+  text-align: center;
 }
 footer img {
   max-width:100px;
