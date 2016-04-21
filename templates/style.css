@@ -21,9 +21,9 @@ h1{
   font-size: 4em;
   font-weight: bold;
   color: white;
-  background-color: rgba(122,65,82,.75);
+  /*background-color: rgba(122,65,82,.75);
   padding: 80px 50px 40px 40px;
-  max-width: 500px;
+  max-width: 500px;*/
 }
 
 h2{
@@ -89,19 +89,14 @@ hr{
   }
 .navigation > div{
     float: left;
-    width: 50%;
+    width: 49%;
+}
+.menu_nav {
+  border-style:none solid none none;
+  border-color: rgba(145,159,68,1);
+  border-width: thin;
 }
 
-
-ul{
-  list-style-type: none;
-}
-li {
-    display: inline;
-    font-family: Bitter, serif;
-    text-transform: uppercase;
-    color:rgba(122,65,82,1);
-}
 
 
 nav a {
@@ -126,7 +121,7 @@ nav a:hover {
     position: relative;
 }
 
-.hero-image__container, .quote-image__container {
+.hero-image__container, .quote-image__container, .menu-image__container, .visit-image__container {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -140,6 +135,24 @@ nav a:hover {
     color: white;
     font-size: 1.2em;
     text-align: center;
+}
+
+.menu-image {
+    height: 20vh;
+    min-height: 150px;
+    background-image: url(../photos/cheeseplate.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.visit-image {
+    height: 20vh;
+    min-height: 150px;
+    background-image: url(../photos/winebar.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
 }
 
 
@@ -172,11 +185,13 @@ nav a:hover {
 }
 .intro {
   font-size: 1.1em;
-  font-weight: 300;
+  font-weight: 400;
   text-align: center;
 }
 
-dl, dt, dd { margin:0;}
+dl, dt, dd {
+  margin:0;
+}
 
 main dt{
   font-weight: bold;
@@ -190,6 +205,16 @@ p{
   padding-right: 2em;
 }
 
+/* Menu */
+.wines dl, .tastings dl{
+  text-align: left;
+  margin-left: 2em;
+  margin-right: 2em;
+  padding-bottom: 2em;
+}
+.wines dt, .tastings dt{
+    padding-top: 2em;
+}
 
 
 
@@ -234,6 +259,9 @@ footer img {
 footer a {
   text-decoration: none;
   color:white;
+}
+footer a:hover{
+  font-weight: bold;
 }
 .contact{
   padding-bottom: 1em;
