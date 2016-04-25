@@ -16,6 +16,7 @@ div, nav, section, main, aside, header, footer {
 } */
 
 /* headings */
+
 h1{
   font-family: Bitter, serif;
   font-size: 4em;
@@ -204,30 +205,64 @@ p{
   padding-left: 2em;
   padding-right: 2em;
 }
+.wines{
+    padding: 0 1em 0 1em;
+}
 
 .tab-list {
-  background: #0d8a00;
   padding: 0;
   margin: 0;
 }
+.tab-item a{
+  text-decoration: none;
+  color: black;
+
+
+}
 .tab-item {
+  font-family: Bitter, serif;
+  font-weight: normal;
+  font-size: 1.75em;
+  text-transform: uppercase;
+  text-align: center;
+  padding-bottom: 10px;
+  padding-top: 15px;
+  border-style:none none solid none;
+  border-width: 2px;
+  border-color: rgba(0,0,0,.5);
   display: block;
+
 }
 
 .tab-item[data-tab-active] {
-  background: #036800;
+  background: white;
+  font-family: Bitter, serif;
+  font-weight: normal;
+  font-size: 1.75em;
+  text-transform: uppercase;
+  text-align: center;
+  padding-bottom: 10px;
+  padding-top: 15px;
+  border-style:none none solid none;
+  border-width: 10px;
+  border-color: rgba(122,65,82,1);
   -webkit-transition: all 150ms cubic-bezier(0.42, 0, 1, 1);
   transition: all 150ms cubic-bezier(0.42, 0, 1, 1);
 }
-.tab-link {
-  color: #fff;
+
+.tab-item[data-tab-active] a{
+  color: black;
+}
+  /*.tab-link {
+
+color: #fff;
   display: block;
   padding: 1rem 2rem;
   position: relative;
   text-decoration: none;
   -webkit-transition: all 150ms cubic-bezier(0.42, 0, 1, 1);
   transition: all 150ms cubic-bezier(0.42, 0, 1, 1);
-}
+}*/
 
 .tab-panel[aria-hidden="true"] {
   display: none;
