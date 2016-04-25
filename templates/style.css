@@ -228,7 +228,7 @@ p{
   padding-bottom: 10px;
   padding-top: 15px;
   border-style:none none solid none;
-  border-width: 2px;
+  border-width: 1px;
   border-color: rgba(0,0,0,.5);
   display: block;
 
@@ -269,13 +269,13 @@ color: #fff;
 }
 
 /* Menu */
-.wines dl, .tastings dl{
+.wines dl, .tastings dl, .food dl, .wholesale dl{
   text-align: left;
-  margin-left: 2em;
-  margin-right: 2em;
+  margin-left: 3em;
+  margin-right: 3em;
   padding-bottom: 2em;
 }
-.wines dt, .tastings dt{
+.wines dt, .tastings dt, .food dt, .wholesale dt{
     padding-top: 2em;
 }
 
