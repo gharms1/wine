@@ -326,25 +326,128 @@ footer a {
 footer a:hover{
   font-weight: bold;
 }
-.contact{
-  padding-bottom: 1em;
-}
+
 
 *{box-sizing: border-box;}
 
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 700px) {
 main {
   max-width: 900px;
   margin: 0 auto;
   }
-  .contact {
-  float: left;
-  width: 33.3%;
-  padding-top: 1em;
-  padding-bottom: 2em;
-  text-align: center;
-  }
-  }
+
+    @media screen and (min-width: 900px) {
+      .redwines {
+      float: left;
+      width: 33.3%;
+      padding-top: 1em;
+      padding-bottom: 2em;
+      padding-left: 1.5em;
+      padding-right: 1.5em;
+      }
+      }
+
+      @media screen and (min-width: 900px) {
+        .redwines1 {
+        float: left;
+        width: 33.3%;
+        padding-top: 1em;
+        padding-bottom: 2em;
+        padding-left: 1.5em;
+        padding-right: 1.5em;
+        }
+        }
+
+        @media screen and (min-width: 900px) {
+          .redwines2 {
+          float: left;
+          width: 33.3%;
+          padding-top: 1em;
+          padding-bottom: 2em;
+          padding-left: 1.5em;
+          padding-right: 1.5em;
+          }
+          }
+
+          @media screen and (min-width: 900px) {
+            .redwines3 {
+            float: left;
+            width: 33.3%;
+            padding-top: 1em;
+            padding-bottom: 2em;
+            padding-left: 1.5em;
+            padding-right: 1.5em;
+            }
+            }
+
+      @media screen and (min-width: 900px) {
+        .whites {
+        float: left;
+        width: 33.3%;
+        padding-top: 1em;
+        padding-bottom: 2em;
+        padding-left: 1.5em;
+        }
+        }
+
+        @media screen and (min-width: 900px) {
+          .whites1 {
+          float: left;
+          width: 33.3%;
+          padding-top: 1em;
+          padding-bottom: 2em;
+          padding-left: 1.5em;
+          }
+          }
+
+          @media screen and (min-width: 900px) {
+            .whites2 {
+            float: left;
+            width: 33.3%;
+            padding-top: 1em;
+            padding-bottom: 2em;
+            padding-left: 1.5em;
+            }
+            }
+
+            @media screen and (min-width: 900px) {
+              .whites3 {
+              float: left;
+              width: 33.3%;
+              padding-top: 1em;
+              padding-bottom: 2em;
+              padding-left: 1.5em;
+              }
+              }
+
+              @media screen and (min-width: 900px) {
+                .room1 {
+                float: left;
+                width: 33.3%;
+                padding-top: 1em;
+                padding-bottom: 2em;
+                padding-left: 1.5em;
+                }
+                }
+                @media screen and (min-width: 900px) {
+                  .room2 {
+                  float: left;
+                  width: 33.3%;
+                  padding-top: 1em;
+                  padding-bottom: 2em;
+                  padding-left: 1.5em;
+                  }
+                  }
+                  @media screen and (min-width: 900px) {
+                    .room3 {
+                    float: left;
+                    width: 33.3%;
+                    padding-top: 1em;
+                    padding-bottom: 2em;
+                    padding-left: 1.5em;
+                    }
+                    }
+
 
 @media screen and (min-width: 800px) {
   .tab-item {
