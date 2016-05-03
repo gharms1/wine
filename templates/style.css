@@ -1,5 +1,19 @@
 @import url(https://fonts.googleapis.com/css?family=Bitter:400,700|Source+Sans+Pro:300,400,700,600);
 
+.clearfix:before, .clearfix:after {
+  content: " ";
+  display: block;
+  height: 0;
+  overflow: hidden;
+}
+
+.clearfix:after {
+    clear: both;
+}
+.clearfix {
+    zoom: 1; /* IE < 8 */
+}
+
 /* COLORS Purple:RGBA(122,65,82,.75) Green: RGBA(145,159,68,1) blue/Grey:RGBA(93,105,112,1) Grey: RGBA(66,66,66,1) */
 
 body {
@@ -337,116 +351,48 @@ main {
   }
 
     @media screen and (min-width: 900px) {
-      .redwines {
-      float: left;
-      width: 33.3%;
-      padding-top: 1em;
-      padding-bottom: 2em;
-      padding-left: 1.5em;
-      padding-right: 1.5em;
-      }
-      }
 
-      @media screen and (min-width: 900px) {
-        .redwines1 {
+      .winelist {
+       float: left;
+       width: 33.3%;
+       padding-top: 1em;
+       padding-bottom: 2em;
+       padding-left: 1.5em;
+       }
+
+       .dessertwinelist {
+        float: left;
+        width: 33.3%;
+        padding-top: 1em;
+        padding-bottom: 2em;
+        padding-left: 2em;
+        }
+
+        .wholesalelist1 {
+         float: left;
+         width: 50%;
+         padding-top: 1em;
+         padding-bottom: 2em;
+         padding-left: 1em;
+         }
+
+         .wholesalelist2 {
+          float: left;
+          width: 50%;
+          padding-top: 1em;
+          padding-bottom: 2em;
+          padding-left: 3em;
+          }
+
+      .room {
         float: left;
         width: 33.3%;
         padding-top: 1em;
         padding-bottom: 2em;
         padding-left: 1.5em;
-        padding-right: 1.5em;
-        }
-        }
+      }
+      }
 
-        @media screen and (min-width: 900px) {
-          .redwines2 {
-          float: left;
-          width: 33.3%;
-          padding-top: 1em;
-          padding-bottom: 2em;
-          padding-left: 1.5em;
-          padding-right: 1.5em;
-          }
-          }
-
-          @media screen and (min-width: 900px) {
-            .redwines3 {
-            float: left;
-            width: 33.3%;
-            padding-top: 1em;
-            padding-bottom: 2em;
-            padding-left: 1.5em;
-            padding-right: 1.5em;
-            }
-            }
-
-      @media screen and (min-width: 900px) {
-        .whites {
-        float: left;
-        width: 33.3%;
-        padding-top: 1em;
-        padding-bottom: 2em;
-        padding-left: 1.5em;
-        }
-        }
-
-        @media screen and (min-width: 900px) {
-          .whites1 {
-          float: left;
-          width: 33.3%;
-          padding-top: 1em;
-          padding-bottom: 2em;
-          padding-left: 1.5em;
-          }
-          }
-
-          @media screen and (min-width: 900px) {
-            .whites2 {
-            float: left;
-            width: 33.3%;
-            padding-top: 1em;
-            padding-bottom: 2em;
-            padding-left: 1.5em;
-            }
-            }
-
-            @media screen and (min-width: 900px) {
-              .whites3 {
-              float: left;
-              width: 33.3%;
-              padding-top: 1em;
-              padding-bottom: 2em;
-              padding-left: 1.5em;
-              }
-              }
-
-              @media screen and (min-width: 900px) {
-                .room1 {
-                float: left;
-                width: 33.3%;
-                padding-top: 1em;
-                padding-bottom: 2em;
-                padding-left: 1.5em;
-                }
-                }
-                @media screen and (min-width: 900px) {
-                  .room2 {
-                  float: left;
-                  width: 33.3%;
-                  padding-top: 1em;
-                  padding-bottom: 2em;
-                  padding-left: 1.5em;
-                  }
-                  }
-                  @media screen and (min-width: 900px) {
-                    .room3 {
-                    float: left;
-                    width: 33.3%;
-                    padding-top: 1em;
-                    padding-bottom: 2em;
-                    padding-left: 1.5em;
-                    }
-                    }
 
 
 @media screen and (min-width: 800px) {
