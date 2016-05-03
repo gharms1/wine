@@ -158,6 +158,7 @@ nav a:hover {
     background-image: url(../photos/cheeseplate.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
     position: relative;
 }
 
@@ -167,6 +168,7 @@ nav a:hover {
     background-image: url(../photos/winebar.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
     position: relative;
 }
 
@@ -345,7 +347,7 @@ footer a:hover{
 *{box-sizing: border-box;}
 
 @media screen and (min-width: 700px) {
-main {
+main{
   max-width: 900px;
   margin: 0 auto;
   }
@@ -398,6 +400,8 @@ main {
 @media screen and (min-width: 800px) {
   .tab-item {
     display: inline-block;
+    padding-top: 50px;
+
   }
 
   .tab-link {
@@ -416,12 +420,61 @@ main {
     height: 0;
     border-left: 10px solid transparent;
     border-right: 10px solid transparent;
-    border-top: 10px solid #036800;
+
   }
 }
 
 .sigtour {
   text-align: center;
   margin: auto;
+
+}
+
+/*IMAGES CSS*/
+@media screen and (min-width: 800px){
+  .visit-image, .menu-image, {
+    height: 25vh;
+    background-position: center;
+    background-size: 100%;
+  }
+
+  .hero-image{
+    height: 40vh;
+    background-position: center;
+    background-size: 100%;
+  }
+ .menu-image__text, .visit-image__text, {
+      font-size: 1.3em;
+    }
+    .hero-image__text {
+      font-size: 1.5em;
+    }
+.tab-list{
+ padding: 0 1em 0 1em;
+ margin-left: 3em;
+ margin-right: 3em;
+ margin-bottom: 3em;
+}
+.tab-item{
+  margin-right: 1em;
+  margin-left: 1em;
+}
+
+
+}
+@media screen and (min-width: 900px) {
+  p .dates {
+  float: left;
+  width: 33.3%;
+  padding-top: 1em;
+  padding-bottom: 2em;
+  padding-left: 1.5em;
+  }
+  }
+@media screen and (min-width: 1200px){
+
+  .menu-image__text, .visit-image__text {
+       font-size: 1.5em;
+   }
 
 }
