@@ -320,8 +320,10 @@ figure {
         z-index: 100;
         color: white;
         text-align: left;
-        font-size: 1.2em;
+        font-size: 1em;
         line-height: 1.5em;
+        font-family: Bitter, serif;
+        font-style: italic;
         }
 
 /* footer */
@@ -329,11 +331,11 @@ footer {
   background-color:rgba(93,105,112,1);
   color: white;
   text-align: center;
-  padding-bottom: 2em;
 }
 footer img {
   max-width:100px;
   float: inherit;
+
 }
 footer a {
   text-decoration: none;
@@ -345,6 +347,24 @@ footer a:hover{
 
 
 *{box-sizing: border-box;}
+
+@media screen and (min-width: 400px){
+.quote-image__text {
+  padding-left: 1em;
+  padding-right: 1em;
+  font-size: 1.1em;
+  }
+  .contact {
+    float: left;
+    width: 50%;
+    padding-top: 1em;
+    padding-bottom: 2em;
+    padding-left: 1.5em;
+  }
+  footer{
+    padding-bottom: 10em;
+  }
+}
 
 @media screen and (min-width: 700px) {
 main{
@@ -459,22 +479,22 @@ main{
   margin-right: 1em;
   margin-left: 1em;
 }
-
+.quote-image__text {
+  font-size: 1.3em;
+  padding-left: 3em;
+  padding-right: 3em;
+}
 
 }
-@media screen and (min-width: 900px) {
-  p .dates {
-  float: left;
-  width: 33.3%;
-  padding-top: 1em;
-  padding-bottom: 2em;
-  padding-left: 1.5em;
-  }
-  }
+
 @media screen and (min-width: 1200px){
 
   .menu-image__text, .visit-image__text {
        font-size: 1.5em;
    }
-
+   .quote-image__text {
+     font-size: 1.5em;
+     padding-left: 3em;
+     padding-right: 3em;
+   }
 }
