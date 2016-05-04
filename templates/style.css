@@ -386,6 +386,15 @@ main{
           padding-left: 3em;
           }
 
+           .hours {
+             float: left;
+             width: 33.3%;
+             padding-top: 1em;
+             padding-bottom: 2em;
+             max-width: 900px;
+  margin: 0 auto;
+           }
+
       .room {
         float: left;
         width: 33.3%;
