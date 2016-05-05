@@ -391,21 +391,21 @@ main{
   border-left: 10px solid transparent;
   border-right: 10px solid transparent;
 
-<<<<<<< HEAD
+
     }
 
   .sigtour {
     text-align: center;
     margin: auto;
   }
-=======
-}
+
+
 
 .sigtour {
 text-align: center;
 margin: auto;
 }
->>>>>>> origin/gh-pages
+
 
 .visit-image, .menu-image, {
 height: 40vh;
@@ -413,7 +413,7 @@ background-position: center;
 background-size: 100%;
 }
 
-<<<<<<< HEAD
+
     .hero-image{
       height: 40vh;
       background-position: center;
@@ -443,7 +443,7 @@ background-size: 100%;
     padding-left: 3em;
     padding-right: 3em;
   }
-=======
+
 .hero-image{
 height: 40vh;
 background-position: center;
@@ -470,13 +470,13 @@ background-size: 100%;
   padding-left: 3em;
   padding-right: 3em;
 }
->>>>>>> origin/gh-pages
+
 
 }
 
 @media screen and (min-width: 900px) {
 
-<<<<<<< HEAD
+
         .wholesalelist1 {
          float: left;
          width: 50%;
@@ -515,7 +515,7 @@ background-size: 100%;
         top: 4em;
         width: 100%;
       }
-=======
+
 .winelist {
 float: left;
 width: 33.3%;
@@ -531,7 +531,7 @@ padding-top: 1em;
 padding-bottom: 2em;
 padding-left: 2em;
 }
->>>>>>> origin/gh-pages
+
 
 .wholesalelist1 {
 float: left;
@@ -549,7 +549,7 @@ padding-bottom: 2em;
 padding-left: 3em;
 }
 
-<<<<<<< HEAD
+
       nav a {
       border-style:none none solid none;
       border-width: 2px;
@@ -561,7 +561,7 @@ padding-left: 3em;
         border-width: 5px;
         color: rgba(122,65,82,.5);
       }
-=======
+
 .hours {
  float: left;
  width: 20%;
@@ -569,7 +569,7 @@ padding-left: 3em;
  padding-bottom: 2em;
  max-width: 900px;
  margin: 0 auto;
->>>>>>> origin/gh-pages
+
 }
 
 .room {
