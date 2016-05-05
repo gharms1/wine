@@ -445,32 +445,7 @@ background-size: 100%;
     padding-right: 3em;
   }
 
-.hero-image{
-height: 40vh;
-background-position: center;
-background-size: 100%;
-}
-.menu-image__text, .visit-image__text, {
-  font-size: 1.3em;
-}
-.hero-image__text {
-  font-size: 1.5em;
-}
-.tab-list{
- padding: 0 1em 0 1em;
- margin-left: 3em;
- margin-right: 3em;
- margin-bottom: 3em;
-}
-.tab-item{
-  margin-right: 1em;
-  margin-left: 1em;
-}
-.quote-image__text {
-  font-size: 1.3em;
-  padding-left: 3em;
-  padding-right: 3em;
-}
+
 
 
 }
