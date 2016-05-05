@@ -372,6 +372,72 @@ main{
   margin: 0 auto;
   }
 
+  @media screen and (min-width: 800px) {
+    .tab-item {
+      display: inline-block;
+      padding-top: 50px;
+
+    }
+
+    .tab-link {
+      display: inline-block;
+    }
+
+    .tab-link[data-tab-active]:after {
+      content: '';
+      display: inline-block;
+      margin: auto;
+      position: absolute;
+      bottom: -10px;
+      left: 0;
+      right: 0;
+      width: 0;
+      height: 0;
+      border-left: 10px solid transparent;
+      border-right: 10px solid transparent;
+
+    }
+  }
+
+  .sigtour {
+    text-align: center;
+    margin: auto;
+
+    .visit-image, .menu-image, {
+      height: 25vh;
+      background-position: center;
+      background-size: 100%;
+    }
+
+    .hero-image{
+      height: 40vh;
+      background-position: center;
+      background-size: 100%;
+    }
+   .menu-image__text, .visit-image__text, {
+        font-size: 1.3em;
+      }
+      .hero-image__text {
+        font-size: 1.5em;
+      }
+  .tab-list{
+   padding: 0 1em 0 1em;
+   margin-left: 3em;
+   margin-right: 3em;
+   margin-bottom: 3em;
+  }
+  .tab-item{
+    margin-right: 1em;
+    margin-left: 1em;
+  }
+  .quote-image__text {
+    font-size: 1.3em;
+    padding-left: 3em;
+    padding-right: 3em;
+  }
+
+  }
+
     @media screen and (min-width: 900px) {
 
       .winelist {
@@ -451,76 +517,6 @@ main{
 
 
 
-@media screen and (min-width: 800px) {
-  .tab-item {
-    display: inline-block;
-    padding-top: 50px;
-
-  }
-
-  .tab-link {
-    display: inline-block;
-  }
-
-  .tab-link[data-tab-active]:after {
-    content: '';
-    display: inline-block;
-    margin: auto;
-    position: absolute;
-    bottom: -10px;
-    left: 0;
-    right: 0;
-    width: 0;
-    height: 0;
-    border-left: 10px solid transparent;
-    border-right: 10px solid transparent;
-
-  }
-}
-
-.sigtour {
-  text-align: center;
-  margin: auto;
-
-}
-
-/*IMAGES CSS*/
-@media screen and (min-width: 800px){
-  .visit-image, .menu-image, {
-    height: 25vh;
-    background-position: center;
-    background-size: 100%;
-  }
-
-  .hero-image{
-    height: 40vh;
-    background-position: center;
-    background-size: 100%;
-  }
- .menu-image__text, .visit-image__text, {
-      font-size: 1.3em;
-    }
-    .hero-image__text {
-      font-size: 1.5em;
-    }
-.tab-list{
- padding: 0 1em 0 1em;
- margin-left: 3em;
- margin-right: 3em;
- margin-bottom: 3em;
-}
-.tab-item{
-  margin-right: 1em;
-  margin-left: 1em;
-}
-.quote-image__text {
-  font-size: 1.3em;
-  padding-left: 3em;
-  padding-right: 3em;
-}
-
-}
-
 @media screen and (min-width: 1200px){
 
   .menu-image__text, .visit-image__text {
@@ -531,4 +527,5 @@ main{
      padding-left: 3em;
      padding-right: 3em;
    }
+
 }
