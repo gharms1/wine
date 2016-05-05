@@ -1,0 +1,64 @@
+@import url(https://fonts.googleapis.com/css?family=Bitter:400,700|Source+Sans+Pro:300,400,700,600);
+
+.clearfix:before, .clearfix:after {
+  content: " ";
+  display: block;
+  height: 0;
+  overflow: hidden;
+}
+
+.clearfix:after {
+    clear: both;
+}
+.clearfix {
+    zoom: 1; /* IE < 8 */
+}
+
+/* COLORS Purple:RGBA(122,65,82,.75) Green: RGBA(145,159,68,1) blue/Grey:RGBA(93,105,112,1) Grey: RGBA(66,66,66,1) */
+
+body {
+  font-family: 'Source Sans Pro'; Helvetica, Arial, sans-serif;
+  color: rgba(66,66,66,1);
+  margin: auto;
+  line-height: 1.5em;
+}
+
+
+h1{
+  font-family: Bitter, serif;
+  font-size: 4em;
+  font-weight: bold;
+  color: white;
+  /*background-color: rgba(122,65,82,.75);
+  padding: 80px 50px 40px 40px;
+  max-width: 500px;*/
+}
+
+h2{
+  color:rgba(122,65,82,1);
+  font-family: Bitter, serif;
+  font-weight: normal;
+  font-size: 1.3em;
+  text-align: center;
+  padding-bottom: 10px;
+  padding-top: 1.5em;
+  border-style:none none solid none;
+  border-color: rgba(145,159,68,1);
+  width: 70%;
+  margin: auto;
+
+}
+
+h3{
+  color:black;
+  font-family: Bitter, serif;
+  font-weight: normal;
+  font-size: 2em;
+  text-transform: uppercase;
+  text-align: center;
+  padding-bottom: 10px;
+  border-style:none none solid none;
+  border-width: 10px;
+  border-color: rgba(122,65,82,1);
+
+}
