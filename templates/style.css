@@ -106,6 +106,7 @@ hr{
     float: left;
     width: 49%;
 }
+
 .menu_nav {
   border-style:none solid none none;
   border-color: rgba(145,159,68,1);
@@ -354,13 +355,16 @@ footer a:hover{
   padding-right: 1em;
   font-size: 1.1em;
   }
-  .contact {
-    float: left;
-    width: 50%;
-    padding-top: 1em;
-    padding-bottom: 2em;
-    padding-left: 1.5em;
+
+  .contactfooter {
+           float: left;
+           width: 33%;
+           padding-top: 1em;
+           padding-bottom: 2em;
+           padding-left: 1.5em;
+           }
   }
+
   footer{
     padding-bottom: 10em;
   }
@@ -397,11 +401,11 @@ main{
       border-right: 10px solid transparent;
 
     }
-  }
 
   .sigtour {
     text-align: center;
     margin: auto;
+  }
 
     .visit-image, .menu-image, {
       height: 25vh;
@@ -420,16 +424,19 @@ main{
       .hero-image__text {
         font-size: 1.5em;
       }
+
   .tab-list{
    padding: 0 1em 0 1em;
    margin-left: 3em;
    margin-right: 3em;
    margin-bottom: 3em;
   }
+
   .tab-item{
     margin-right: 1em;
     margin-left: 1em;
   }
+
   .quote-image__text {
     font-size: 1.3em;
     padding-left: 3em;
@@ -478,7 +485,7 @@ main{
              padding-top: 1em;
              padding-bottom: 2em;
              max-width: 900px;
-  margin: 0 auto;
+             margin: 0 auto;
            }
 
       .room {
@@ -491,7 +498,7 @@ main{
 
       .navigation {
         position: absolute;
-        top: 20%;
+        top: 4em;
         width: 100%;
       }
 
@@ -508,6 +515,7 @@ main{
       border-width: 2px;
       border-color: rgba(0,0,0,.5);
       }
+
       nav a:hover {
         border-style:none none solid none;
         border-width: 5px;
