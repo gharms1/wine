@@ -408,8 +408,8 @@ margin: auto;
 }
 
 
-.visit-image, .menu-image, {
-height: 40vh;
+.visit-image, .menu-image {
+height: 30vh;
 background-position: center;
 background-size: 100%;
 }
@@ -595,8 +595,9 @@ nav a:hover {
      padding-left: 3em;
      padding-right: 3em;
    }
-   .visit-image, .menu-image, {
+   .visit-image, .menu-image {
      height: 40vh;
    }
+
 
 }
