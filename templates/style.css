@@ -270,16 +270,7 @@ p{
 .tab-item[data-tab-active] a{
   color: black;
 }
-  /*.tab-link {
 
-color: #fff;
-  display: block;
-  padding: 1rem 2rem;
-  position: relative;
-  text-decoration: none;
-  -webkit-transition: all 150ms cubic-bezier(0.42, 0, 1, 1);
-  transition: all 150ms cubic-bezier(0.42, 0, 1, 1);
-}*/
 
 .tab-panel[aria-hidden="true"] {
   display: none;
@@ -376,43 +367,53 @@ main{
   margin: 0 auto;
   }
 
-  @media screen and (min-width: 800px) {
-    .tab-item {
-      display: inline-block;
-      padding-top: 50px;
+@media screen and (min-width: 800px) {
+.tab-item {
+  display: inline-block;
+  padding-top: 50px;
 
-    }
+}
 
-    .tab-link {
-      display: inline-block;
-    }
+.tab-link {
+  display: inline-block;
+}
 
-    .tab-link[data-tab-active]:after {
-      content: '';
-      display: inline-block;
-      margin: auto;
-      position: absolute;
-      bottom: -10px;
-      left: 0;
-      right: 0;
-      width: 0;
-      height: 0;
-      border-left: 10px solid transparent;
-      border-right: 10px solid transparent;
+.tab-link[data-tab-active]:after {
+  content: '';
+  display: inline-block;
+  margin: auto;
+  position: absolute;
+  bottom: -10px;
+  left: 0;
+  right: 0;
+  width: 0;
+  height: 0;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
 
+<<<<<<< HEAD
     }
 
   .sigtour {
     text-align: center;
     margin: auto;
   }
+=======
+}
 
-    .visit-image, .menu-image, {
-      height: 25vh;
-      background-position: center;
-      background-size: 100%;
-    }
+.sigtour {
+text-align: center;
+margin: auto;
+}
+>>>>>>> origin/gh-pages
 
+.visit-image, .menu-image, {
+height: 40vh;
+background-position: center;
+background-size: 100%;
+}
+
+<<<<<<< HEAD
     .hero-image{
       height: 40vh;
       background-position: center;
@@ -442,27 +443,40 @@ main{
     padding-left: 3em;
     padding-right: 3em;
   }
+=======
+.hero-image{
+height: 40vh;
+background-position: center;
+background-size: 100%;
+}
+.menu-image__text, .visit-image__text, {
+  font-size: 1.3em;
+}
+.hero-image__text {
+  font-size: 1.5em;
+}
+.tab-list{
+ padding: 0 1em 0 1em;
+ margin-left: 3em;
+ margin-right: 3em;
+ margin-bottom: 3em;
+}
+.tab-item{
+  margin-right: 1em;
+  margin-left: 1em;
+}
+.quote-image__text {
+  font-size: 1.3em;
+  padding-left: 3em;
+  padding-right: 3em;
+}
+>>>>>>> origin/gh-pages
 
-  }
+}
 
-    @media screen and (min-width: 900px) {
+@media screen and (min-width: 900px) {
 
-      .winelist {
-       float: left;
-       width: 33.3%;
-       padding-top: 1em;
-       padding-bottom: 2em;
-       padding-left: 1.5em;
-       }
-
-       .dessertwinelist {
-        float: left;
-        width: 33.3%;
-        padding-top: 1em;
-        padding-bottom: 2em;
-        padding-left: 2em;
-        }
-
+<<<<<<< HEAD
         .wholesalelist1 {
          float: left;
          width: 50%;
@@ -501,15 +515,41 @@ main{
         top: 4em;
         width: 100%;
       }
+=======
+.winelist {
+float: left;
+width: 33.3%;
+padding-top: 1em;
+padding-bottom: 2em;
+padding-left: 1.5em;
+}
 
-      nav hr {
-        display: none;
-      }
+.dessertwinelist {
+float: left;
+width: 33.3%;
+padding-top: 1em;
+padding-bottom: 2em;
+padding-left: 2em;
+}
+>>>>>>> origin/gh-pages
 
-      .menu_nav {
-        border: none;
-      }
+.wholesalelist1 {
+float: left;
+width: 50%;
+padding-top: 1em;
+padding-bottom: 2em;
+padding-left: 1em;
+}
 
+.wholesalelist2 {
+float: left;
+width: 50%;
+padding-top: 1em;
+padding-bottom: 2em;
+padding-left: 3em;
+}
+
+<<<<<<< HEAD
       nav a {
       border-style:none none solid none;
       border-width: 2px;
@@ -521,19 +561,66 @@ main{
         border-width: 5px;
         color: rgba(122,65,82,.5);
       }
+=======
+.hours {
+ float: left;
+ width: 20%;
+ padding-top: 1em;
+ padding-bottom: 2em;
+ max-width: 900px;
+ margin: 0 auto;
+>>>>>>> origin/gh-pages
 }
+
+.room {
+  float: left;
+  width: 33.3%;
+  padding-top: 1em;
+  padding-bottom: 2em;
+  padding-left: 1.5em;
+}
+
+.navigation {
+  position: absolute;
+  top: 20%;
+  width: 100%;
+}
+
+nav hr {
+  display: none;
+}
+
+.menu_nav {
+  border: none;
+}
+
+nav a {
+border-style:none none solid none;
+border-width: 2px;
+border-color: rgba(0,0,0,.5);
+}
+nav a:hover {
+  border-style:none none solid none;
+  border-width: 5px;
+  color: rgba(122,65,82,.5);
+}
+}
+
 
 
 
 @media screen and (min-width: 1200px){
 
   .menu-image__text, .visit-image__text {
-       font-size: 1.5em;
+       font-size: 1.3em;
    }
    .quote-image__text {
      font-size: 1.5em;
      padding-left: 3em;
      padding-right: 3em;
+   }
+   .visit-image, .menu-image, {
+     height: 40vh;
    }
 
 }
