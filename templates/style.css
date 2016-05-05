@@ -193,7 +193,7 @@ nav a:hover {
 
 
 /* body */
-.hours{
+.hoursbox{
   background-color: rgba(145,159,68,1);
   color: white;
   margin: 2em 1em 0em 1em;
@@ -408,7 +408,7 @@ main{
 
            .hours {
              float: left;
-             width: 33.3%;
+             width: 20%;
              padding-top: 1em;
              padding-bottom: 2em;
              max-width: 900px;
@@ -422,7 +422,32 @@ main{
         padding-bottom: 2em;
         padding-left: 1.5em;
       }
+
+      .navigation {
+        position: absolute;
+        top: 20%;
+        width: 100%;
       }
+
+      nav hr {
+        display: none;
+      }
+
+      .menu_nav {
+        border: none;
+      }
+
+      nav a {
+      border-style:none none solid none;
+      border-width: 2px;
+      border-color: rgba(0,0,0,.5);
+      }
+      nav a:hover {
+        border-style:none none solid none;
+        border-width: 5px;
+        color: rgba(122,65,82,.5);
+      }
+}
 
 
 
