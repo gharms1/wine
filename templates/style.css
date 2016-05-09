@@ -113,7 +113,9 @@ hr{
   border-width: thin;
 }
 
-
+p a, dd a, dt a {
+  color: rgba(145,159,68,1);
+}
 
 nav a {
   text-decoration: none;
@@ -332,6 +334,7 @@ footer img {
 footer a {
   text-decoration: none;
   color:white;
+  font-weight: bold;
 }
 footer a:hover{
   font-weight: bold;
