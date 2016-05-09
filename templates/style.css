@@ -166,7 +166,7 @@ nav a:hover {
 .visit-image {
     height: 20vh;
     min-height: 150px;
-    background-image: url(../photos/winebar.jpg);
+    background-image: url(../photos/barscene.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -297,7 +297,7 @@ figure {
     margin-bottom: 1em;
     padding: auto;
     }
-  
+
     .quote-image {
         height: 40vh;
         min-height: 400px;
