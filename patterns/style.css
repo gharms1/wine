@@ -65,3 +65,47 @@ hr{
   height: 5px;
   border-style: none;
 }
+
+
+main{
+ max-width: 900px;
+ margin: 0 auto;
+ }
+
+ p{
+   padding-left: 2em;
+   padding-right: 2em;
+ }
+
+ .swatch-purple {
+   background-color: rgba(122,65,82,1);
+ }
+ .swatch-green {
+   background-color: rgba(145,159,68,1);
+ }
+ .swatch-grey {
+   background-color: rgba(93,105,112,1);
+ }
+ .swatch {
+   min-width: 70px;
+   min-height: 70px;
+   -moz-border-radius: 50px;
+   -webkit-border-radius: 50px;
+   border-radius: 50px;
+   margin: 2em 1em;
+   display: inline-block;
+ }
+
+ * {
+   box-sizing: border-box;
+ }
+
+ .bitter{
+   font-family: Bitter;
+   text-align: center;
+ }
+
+ .sans{
+   font-family: "source sans pro";
+   text-align: center;
+ }
