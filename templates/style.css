@@ -325,10 +325,15 @@ footer {
   background-color:rgba(93,105,112,1);
   color: white;
   text-align: center;
+  padding: 4em 0 2em 0;
+  margin-top: -3.5em;
 }
-footer img {
+.logo2 {
   max-width:100px;
   float: inherit;
+  position: relative;
+  margin:auto;
+
 
 }
 footer a {
@@ -353,9 +358,6 @@ footer a:hover{
 
   }
 
-  footer{
-    padding-bottom: 2em;
-  }
 
 
 @media screen and (min-width: 700px) {
@@ -423,7 +425,7 @@ background-size: 100%;
         font-size: 1.5em;
       }
 
-  .tab-list{
+  /*.tab-list{
    padding: 0 1em 0 1em;
    margin-left: 3em;
    margin-right: 3em;
@@ -433,8 +435,21 @@ background-size: 100%;
   .tab-item{
     margin-right: 1em;
     margin-left: 1em;
+  }*/
+  .tab-list{
+   padding: 0 1em 0 1em;
+   margin-left: 3em;
+   margin-right: 3em;
+   margin-bottom: 3em;
+   text-align: center;
   }
 
+
+  .tab-item{
+
+    text-align: center;
+    width: 33%;
+  }
   .quote-image__text {
     font-size: 1.3em;
     padding-left: 3em;

@@ -292,19 +292,21 @@ main{
    .tab-panel[aria-hidden="true"] {
      display: none;
    }
+   footer {
+     background-color:rgba(93,105,112,1);
+     color: white;
+     text-align: center;
+     padding: 4em 0 2em 0;
+     margin-top: -3.5em;
+   }
+   .logo2 {
+     max-width:100px;
+     float: inherit;
+     position: relative;
+     margin:auto;
 
 
- footer {
-   background-color:rgba(93,105,112,1);
-   color: white;
-   text-align: center;
-   padding-bottom: 3em;
- }
- footer img {
-   max-width:100px;
-   float: inherit;
-
- }
+}
  footer a {
    text-decoration: none;
    color:white;
