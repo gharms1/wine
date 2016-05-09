@@ -333,6 +333,7 @@ main{
     .hero-image__text {
       font-size: 1.5em;
     }
+
     .tab-item {
       display: inline-block;
       padding-top: 50px;
@@ -342,6 +343,7 @@ main{
 
     .tab-link {
       display: inline-block;
+
     }
 
 
@@ -357,10 +359,17 @@ main{
       height: 0;
       border-left: 10px solid transparent;
       border-right: 10px solid transparent;
-
-
+        }
+        .tab-list{
+         padding: 0 1em 0 1em;
+         margin-left: 3em;
+         margin-right: 3em;
         }
 
+        .tab-item{
+          margin-right: 1em;
+          margin-left: 1em;
+        }
  }
 
 @media screen and (min-width: 900px) {
