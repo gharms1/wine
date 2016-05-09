@@ -67,6 +67,61 @@ hr{
 }
 
 
+.navigation {
+    text-align: center;
+    overflow: hidden;
+    padding-bottom: 1em;
+    padding-top: .5em;
+    font-size: 1.1em;
+    text-transform: uppercase;
+    font-family: Bitter;
+    margin:auto;
+
+  }
+nav{
+   max-width: 900px;
+   margin: 0 auto;
+
+}
+  .navigation2 {
+      text-align: center;
+      overflow: hidden;
+      padding-bottom: 1em;
+      padding-top: .5em;
+      font-size: 1.1em;
+      text-transform: uppercase;
+      font-family: Bitter;
+      margin:auto;
+
+    }
+.navigation > div{
+    float: left;
+    width: 49%;
+}
+.navigation2 > div{
+    float: left;
+    width: 49%;
+}
+
+.menu_nav {
+  border-style:none solid none none;
+  border-color: rgba(145,159,68,1);
+  border-width: thin;
+}
+
+
+
+nav a {
+  text-decoration: none;
+  color: rgba(122,65,82,1);
+  font-size: 1.2em;
+}
+
+nav a:hover {
+  text-decoration: none;
+  color: rgba(122,65,82,.5);
+  font-size: 1.2em;
+}
 main{
  max-width: 900px;
  margin: 0 auto;
@@ -102,10 +157,243 @@ main{
 
  .bitter{
    font-family: Bitter;
+   font-size: 1.3em;
    text-align: center;
  }
 
  .sans{
    font-family: "source sans pro";
+   font-size: 1.3em;
    text-align: center;
  }
+ .intro {
+   font-size: 1.1em;
+   font-weight: 400;
+   text-align: center;
+ }
+ dl, dt, dd {
+   margin:0;
+ }
+
+ main dt{
+   font-weight: bold;
+ }
+ main dl{
+   text-align: center;
+
+ }
+ .wines{
+     padding: 0 1em 0 1em;
+ }
+ .wines dl {
+   text-align: left;
+   margin-left: 3em;
+   margin-right: 3em;
+   padding-bottom: 2em;
+ }
+ .wines dt{
+     padding-top: 2em;
+ }
+
+ .hero-image {
+     height: 30vh;
+     min-height: 300px;
+     background-image: url(../photos/winestoppers.jpg);
+     background-repeat: no-repeat;
+     background-size: cover;
+     position: relative;
+ }
+
+ .hero-image__container {
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     height: 100%;
+     background-color: rgba(122,65,82,.75);
+ }
+
+ .hero-image__text {
+     z-index: 100;
+     padding: 1em;
+     color: white;
+     font-size: 1em;
+     line-height: 4em;
+     text-align: center;
+ }
+
+
+
+   .hero-image__container,{
+       display: flex;
+       align-items: center;
+       justify-content: center;
+       height: 100%;
+       background-color: rgba(122,65,82,.75);
+   }
+
+   .tab-list {
+     padding: 0;
+     margin: 0;
+   }
+   .tab-item a{
+     text-decoration: none;
+     color: black;
+
+
+   }
+   .tab-item {
+     font-family: Bitter, serif;
+     font-weight: normal;
+     font-size: 1.75em;
+     text-transform: uppercase;
+     text-align: center;
+     padding-bottom: 10px;
+     padding-top: 15px;
+     border-style:none none solid none;
+     border-width: 1px;
+     border-color: rgba(0,0,0,.5);
+     display: block;
+
+   }
+
+   .tab-item[data-tab-active] {
+     background: white;
+     font-family: Bitter, serif;
+     font-weight: normal;
+     font-size: 1.75em;
+     text-transform: uppercase;
+     text-align: center;
+     padding-bottom: 10px;
+     padding-top: 15px;
+     border-style:none none solid none;
+     border-width: 10px;
+     border-color: rgba(122,65,82,1);
+     -webkit-transition: all 150ms cubic-bezier(0.42, 0, 1, 1);
+     transition: all 150ms cubic-bezier(0.42, 0, 1, 1);
+   }
+
+   .tab-item[data-tab-active] a{
+     color: black;
+   }
+
+
+   .tab-panel[aria-hidden="true"] {
+     display: none;
+   }
+
+
+ footer {
+   background-color:rgba(93,105,112,1);
+   color: white;
+   text-align: center;
+   padding-bottom: 3em;
+ }
+ footer img {
+   max-width:100px;
+   float: inherit;
+
+ }
+ footer a {
+   text-decoration: none;
+   color:white;
+ }
+ footer a:hover{
+   font-weight: bold;
+ }
+
+ dl, dt, dd {
+   margin:0;
+ }
+ *{box-sizing: border-box;}
+
+ @media screen and (min-width: 400px){
+
+
+ @media screen and (min-width: 800px){
+  .hero-image{
+    height: 40vh;
+    background-position: center;
+    background-size: 100%;
+  }
+ .menu-image__text, .visit-image__text, {
+      font-size: 1.3em;
+    }
+    .hero-image__text {
+      font-size: 1.5em;
+    }
+    .tab-item {
+      display: inline-block;
+      padding-top: 50px;
+
+    }
+
+
+    .tab-link {
+      display: inline-block;
+    }
+
+
+    .tab-link[data-tab-active]:after {
+      content: '';
+      display: inline-block;
+      margin: auto;
+      position: absolute;
+      bottom: -10px;
+      left: 0;
+      right: 0;
+      width: 0;
+      height: 0;
+      border-left: 10px solid transparent;
+      border-right: 10px solid transparent;
+
+
+        }
+
+ }
+
+@media screen and (min-width: 900px) {
+ nav a {
+ border-style:none none solid none;
+ border-width: 2px;
+ border-color: rgba(0,0,0,.5);
+ }
+
+ nav a:hover {
+   border-style:none none solid none;
+   border-width: 5px;
+   color: rgba(122,65,82,.5);
+ }
+
+ .navigation2 {
+   position: relative;
+   top: -6em;
+   width: 100%;
+ }
+ .navigation {
+   position: absolute;
+   top: 4em;
+   width: 100%;
+   max-width: 900px;
+   margin:auto;
+ }
+
+ nav hr {
+   display: none;
+ }
+
+ .menu_nav {
+   border: none;
+ }
+ .winelist {
+ float: left;
+ width: 33.3%;
+ padding-top: 1em;
+ padding-bottom: 2em;
+ padding-left: 1.5em;
+ }
+
+}
+@media screen and (min-width: 1200px){
+
+
+}
