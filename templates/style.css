@@ -612,3 +612,11 @@ nav a:hover {
 
 
 }
+
+
+/*Project Index*/
+  .indexh1 {
+    text-align: center;
+    margin: auto;
+    color: color:rgba(122,65,82,1);
+  }
