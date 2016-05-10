@@ -22,6 +22,7 @@ body {
   margin: auto;
   line-height: 1.5em;
   text-align: center;
+  padding-bottom: 5em;
 }
 
 
@@ -67,4 +68,13 @@ h3{
   border-width: 1px;
   border-color: rgba(122,65,82,1);
 
+}
+
+.logo{
+  display:block;
+  max-width: 250px;
+  margin: 0 auto;
+  width: 75%;
+  padding-top: 3em;
+  padding-bottom: 1em;
 }
